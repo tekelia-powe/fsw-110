@@ -1,0 +1,43 @@
+
+h1{
+    text-align: center;
+    color: hotpink;
+  }
+
+.main_container{
+    position: relative;
+    margin: auto;
+    width:50%;
+    padding: 15px;
+    background-color: grey;
+    top:50px;
+    z-index: -1;
+  }
+
+  .main {
+    background: white;
+    max-height: max-content;
+    padding: 25px;
+    align-content: center;
+    
+  }
+
+
+  p{
+    padding-top: 20px;
+    text-align: center;
+    }
+  body{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+
+  #square {
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    /* position: relative;
+    padding: 55px; */
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
