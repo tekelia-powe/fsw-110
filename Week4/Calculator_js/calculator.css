@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: black;
+    
+}
+header {
+    background-color: #666;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+.add {
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: red solid 5px;
+    padding: 10px;
+    margin: 10px;
+    width: max-content;
+}
+
+.subtract {
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: hotpink solid 5px;
+    padding: 10px;
+    margin: 10px;
+    width: max-content;
+}
+.multiply {
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: purple solid 5px;
+    padding: 10px;
+    margin: 10px;
+    width: max-content;
+}
+footer{
+    background-color: #666;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+  }
+
+}
+
+
+table td {
+    padding: 5px;
+}
+.main_container{
+    display: flex;
+}
