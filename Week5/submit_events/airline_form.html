@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title> TPT Airlines</title>
+
+</head>
+<link rel="stylesheet" href= "./airline.css">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<body>
+    <header>
+        <h1> TPT Airlines</h1>
+    </header>
+    
+<div class="form">
+    <h3> Please complete the form below:</h3>
+<form name="information">
+    <table>
+        <th colspan="2"> Basic Passenger information:</th>
+        <tr>
+<td>First Name: </td><td><input type="text" name="fname" placeholder="First Name" required /> </td></tr>
+<td>Last Name: </td><td><input type="text" name="lname" placeholder="Last Name" required /> </td></tr>
+<td>Age:</td><td><input type="number" name="age" placeholder="Age" required /> </td></tr>
+    <td>Gender: </td><td><input type="radio" name="gender" value="Male" required /> Male
+    <input type="radio" name="gender" value="Female" required /> Female </td></tr>
+    <td>Destination:</td><td> <select name="destinations">
+        <option value="none">Please select ...</option>
+        <option value="Bahamas">Bahamas</option>
+    <option value="New York">New York</option>
+    <option value="Paris">Paris</option>
+    </select> </td></tr>
+    <td>Dietary Restrictions:</td><td> 
+<input type="checkbox" value="Vegan" name="diet" /> Vegan <br>
+<input type="checkbox" value="Kosher" name="diet" /> Kosher <br>
+<input type="checkbox" value="Lactose Free" name="diet" /> Lactose Free<br>
+<input type="checkbox" value="Vegetarian" name="diet" /> Vegetarian<br>
+</td></tr>
+<tr><td colspan="2" align="center"><button> Submit </button></td></tr>
+</table>
+</form>
+</div>
+<aside></aside>
+<script src="airline.js"></script>
+</body>
+</html>

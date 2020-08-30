@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: black;
+    background-image: url('airplane-wing-sunrise.jpg');
+    
+}
+header {
+    background-color: #cf5f31;
+    padding: 5px;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    border-radius: 30px;
+    
+  }
+aside{
+
+    width:350px;
+}
+.form {
+    background-color: white;
+    color: black;
+    text-align: center;
+    border:#594759 solid 5px;
+    border-radius: 25% 10%;
+    padding: 30px;
+    margin-top: 10px;
+    margin-right: 500px;
+    margin-left: 500px;
+    width: max-content;
+}
+
+table td,th{
+    padding: 5px;
+    background-color:#594759;
+}
