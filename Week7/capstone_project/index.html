@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>
+        Capstone Project - Todo List
+    </title>
+    <link rel="stylesheet" href= "style.css">
+</head>
+<body>
+    
+        <header>
+        <h1> A Christmas Wish List</h1>
+    </header>
+    <p>Christmas is right around the corner. Let the countdown begin. <br> Enter your Christmas Wishes below: </p>
+    <div class="main_container">
+        <div class="img_lt">
+        <img src="santa.png" width="150px"  height="150px"/>
+        </div>
+        <div class="form">
+        <form id="wish_form" name="wish_form">
+            
+        <table border="2">
+            <th colspan="2">Wishes:</th>
+             <tr>
+                <td>Name:</td>
+                <td><input type="text" id="name" name="name" value="Name"></td>
+            </tr>
+            <tr>
+               <td>Wish List Item:</td>
+                <td><input type="text" id="item" name="item" value="Item"></td>
+            </tr>
+            <tr>
+                <td>Cost:</td>
+                <td><input type="number" id="cost" name="cost" min="0" value="0" step="0.01" pattern="^\d+(?:\.\d{1,2})?$"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" id="add_submit" value="Add to List"></td>
+            </tr> 
+        </table>
+        
+    </div>
+    <div class="wish_list">
+        <h3 id="title"></h3>
+        <p id="wish_list"></p>
+    </div>
+    <div class="img_rt">
+        <img src="santa.png" width="150px"  height="150px"/>
+        </div>
+    
+</div>
+    <footer>
+        <p> <b>All wishes are reported directly to Santa.</b> </p>
+        <p> <b>Address: </b>123 Elf Road, North Pole 88888</p>
+        <p> <b>Email:</b> thejollyone@gmail.com</p>
+        <p> <b>Twitter: </b>thejollyone</p>
+    </footer>
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+@media only screen and (min-width: 1200px) {
+
+* {
+    box-sizing: border-box;
+  }
+
+/* body{
+    background-color: black;
+    
+} */
+header {
+    /* background-color: #666; */
+    background-image: url("background.jpg");
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    overflow: hidden;
+  }
+.form {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: max-content;
+}
+
+.wish_list {
+    background-color: white;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    /* margin: 10px; */
+    width: max-content;
+}
+
+footer{
+    background-color: crimson;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color:black;
+  }
+
+
+
+.img_lt{
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+
+.img_rt{
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+table td {
+    padding: 5px;
+}
+.main_container{
+    display: flex;
+    align-items: center;
+    margin-left: 125px;
+}
+#wish_list{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+}
+@media only screen and (max-width: 1199px) {
+
+    
+    .main_container{
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        flex-direction: column;
+    }
+    * {
+        box-sizing: border-box;
+      }
+    
+    /* body{
+        background-color: black;
+        
+    } */
+    header {
+        /* background-color: #666; */
+        background-image: url("background.jpg");
+        padding: 10px;
+        text-align: center;
+        font-size: 25px;
+        color: black;
+        overflow: hidden;
+      }
+    .form {
+        background-color: white;
+        color: black;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        width: max-content;
+    }
+    
+    .wish_list {
+        background-color: white;
+        color: black;
+        text-align: center;
+        align-items: center;
+        padding: 15px;
+        /* margin: 10px; */
+        width: max-content;
+    }
+    
+    footer{
+        background-color: crimson;
+        padding: 5px;
+        text-align: center;
+        font-size: 15px;
+        color:black;
+      }
+    
+    
+    
+    .img_lt{
+        padding: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+        
+    }
+    
+    .img_rt{
+        padding: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+        
+    }
+    table td {
+        padding: 5px;
+    }
+    
+    #wish_list{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }   
+
+}
